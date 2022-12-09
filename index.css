@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Michroma', sans-serif;
+    font-size: 20px
+}
+
+a{
+    text-decoration: none;
+    color: #000000; 
+}
+
+h1:hover{
+    color: #AD92F1;
+}
+
+ul,li{
+    list-style: none;
+    display: inline; 
+    padding: 0.5em;
+}
+
+.sectionHome{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    padding: 1.5em;
+}
+
+.nav-list{
+    font-family: 'Bungee', cursive;
+    font-size: 16px;
+    padding: 1.5em;
+}
+
+/* Profile */
+
+.sectionProfile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    margin-bottom: 6%;
+}
+
+.avatar{
+    width: 20em;
+}
+
+.button{
+    border: none;
+    color: #ffffff;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Bungee', cursive;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 30px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonProfile {
+    background-color: #eee;
+    color: black; 
+    border: 3px solid #AD92F1;
+    border-radius: 27px;
+}
+  
+.buttonProfile:hover {
+    background-color: #AD92F1;
+    color: #ffffff;
+}
+
+/* skills */
+
+.sectionSkills{  
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sectionContentSkills{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.skillsContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 230px;
+    height: 210px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 6px solid #eee;
+    font-weight: bold;
+}
+
+/* quote */
+
+.quote{
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    padding: 9.375em;
+    height: 31.25em;
+    text-align: center;
+}
+
+.quoteHome{
+    color:#AD92F1;
+    font-family: 'Bungee', cursive;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* proyect */
+
+.sectionProject{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: max-content;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin-top: 60px;
+}
+
+.projectContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+    margin: 30px;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    border: 6px solid #eee;
+}
+
+.projectContent:hover{
+    border: 6px solid #AD92F1;
+}
+
+.imgProjct {
+    width: 9em;
+}
+
+/* section contact */
+
+.sectionContact{
+    text-align: center;
+    margin-top: 12%;
+    margin-bottom: 8%;
+    padding: 10px;
+    height: 700px;
+}
+
+.contact{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  height: 95%;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.contactList{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.item{
+    color: #000000;
+}
+
+.item:hover{
+    color:#AD92F1;
+}
+
+.conteinerForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.nameForm{
+    display: flex;
+    align-items: center;
+}
+
+#iInput{
+    height: 2rem;
+    width: 20rem;
+    margin: 1rem;
+    border: 3px solid #AD92F1;
+    border-radius: 20px;
+} 
+
+#iInputMsj{
+    height: 6rem;
+    width: 20rem;
+    margin: 1rem;
+    border: 3px solid #AD92F1;
+    border-radius: 20px;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #AD92F1;
+    text-align: center;
+    height: 150px;
+}
+
+.footerContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.itemFooter{
+    color:#ffffff;
+}
+
+.itemFooter:hover{
+    color: #000000;
+}
